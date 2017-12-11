@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.siriusdev.passwordkeeper.Registration">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="@string/registration"
+            android:id="@+id/registration"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+
+        <EditText
+            android:hint="@string/hintAddLogin"
+            android:id="@+id/loginReg"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/registration" />
+
+        <EditText
+            android:hint="@string/hintAddPassword"
+            android:id="@+id/passwordReg"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/loginReg"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:hint="@string/hintRepeatPassword"
+            android:id="@+id/repPasswordReg"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/passwordReg"
+            android:inputType="textPassword" />
+
+        <Button
+            android:text="@string/registerButton"
+            android:id="@+id/create"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/repPasswordReg"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.siriusdev.passwordkeeper.Authorization">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="@string/signInText"
+            android:id="@+id/signIn"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:hint="@string/hintAddLogin"
+            android:id="@+id/loginAdd"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/signIn" />
+
+        <EditText
+            android:hint="@string/hintAddPassword"
+            android:id="@+id/passwordAdd"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textPassword"
+            android:layout_below="@+id/loginAdd" />
+
+        <Button
+            android:text="@string/signInButton"
+            android:id="@+id/signInButton"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/passwordAdd"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:textSize="16sp"
+            android:text="@string/textOfCreation"
+            android:id="@+id/textOfCreation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/signInButton"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="@string/createButton"
+            android:id="@+id/goRegistration"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textOfCreation"
+            android:layout_centerHorizontal="true" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

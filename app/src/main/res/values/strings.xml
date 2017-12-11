@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Password\nKeeper</string>
+    <string name="hintAddSystem">write where the password is used</string>
+    <string name="hintAddLogin">login</string>
+    <string name="hintAddPassword">password</string>
+    <string name="showAllPasswords">Show All Passwords</string>
+    <string name="AddButton">add</string>
+
+
+    <!--PasswordKeeper Activity-->
+
+    <string name="signInText">Sign in!</string>
+    <string name="signInButton">Sign in</string>
+    <string name="buttonAddText">Log in!</string>
+    <string name="textOfCreation">If you don\'t have an account, go create one!</string>
+    <string name="createButton">Create</string>
+
+    <!--Authorization Activity-->
+
+    <string name="registration">Registration</string>
+    <string name="hintRepeatPassword">repeat password</string>
+    <string name="registerButton">Register!</string>
+
+    <!--Registration Activity-->
+
+</resources>
